@@ -63,7 +63,11 @@ $ aws-s3 list --access_key_id=<id> --secret_access_key=<secret> ...
 
 In the following examples, access keys are assumed to be set as envirinment variables.
 
-#### Show list of objects
+#### LIST
+
+Output list of objects on the S3 storage to the stdout.
+
+Example:
 ```
 $ aws-s3 list --region=<region> --bucket=<bucket>
 ```
